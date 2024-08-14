@@ -1,0 +1,9 @@
+"# .NET Core files" 
+# .NET Core
+*.obj
+*.exe
+*.dll
+*.log
+bin/
+obj/
+*.vsidx
