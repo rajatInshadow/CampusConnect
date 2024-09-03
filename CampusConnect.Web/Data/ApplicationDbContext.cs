@@ -11,6 +11,6 @@ namespace CampusConnect.Web.Data
         }
 
         public DbSet<Student> Students { get; set; }
-        public DbSet<Facility>  Facilities { get; set; }
+        public DbSet<Facility> Facilities { get; set; }
     }
 }
