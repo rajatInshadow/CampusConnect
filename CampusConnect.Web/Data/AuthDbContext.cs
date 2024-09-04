@@ -64,7 +64,29 @@ namespace CampusConnect.Web.Data
 
             superAdminUser.PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(superAdminUser, "super@123");
 
-            builder.Entity<IdentityRole>().HasData(superAdminUser);
+            builder.Entity<IdentityUser>().HasData(superAdminUser);
+
+            //Add all roles to super admin 
+            var superAdminRoles = new List<IdentityUserRole<string>>
+            {
+                new IdentityUserRole<string>
+                {
+                    RoleId = AdminRoleId,
+                    UserId = superAdminId
+                },
+                new IdentityUserRole<string>
+                {
+                    RoleId = superAdminRoleId,
+                    UserId = superAdminId
+                },
+                new IdentityUserRole<string>
+                {
+                    RoleId = AdminRoleId,
+                    UserId = superAdminId
+                }
+            };
+
+            builder.Entity<IdentityUserRole<string>>().HasData(superAdminRoles);
         }
     }
 }
