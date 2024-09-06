@@ -7,3 +7,8 @@
 bin/
 obj/
 *.vsidx
+*.vs
+.vs/
+.bin
+*.v2
+*.suo
