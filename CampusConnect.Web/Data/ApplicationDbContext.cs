@@ -1,4 +1,5 @@
 ﻿using CampusConnect.Web.Models.Entities;
+using CampusConnect.Web.Models.NewFolder2;
 using Microsoft.EntityFrameworkCore;
 
 namespace CampusConnect.Web.Data
