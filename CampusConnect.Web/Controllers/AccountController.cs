@@ -6,6 +6,7 @@ namespace CampusConnect.Web.Controllers
     public class AccountController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IAccountService _accountService;
 
         public AccountController(ApplicationDbContext context)
         {

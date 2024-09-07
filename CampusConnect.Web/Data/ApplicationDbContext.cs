@@ -1,5 +1,4 @@
 ﻿using CampusConnect.Web.Models.Entities;
-using CampusConnect.Web.Models.NewFolder2;
 using Microsoft.EntityFrameworkCore;
 
 namespace CampusConnect.Web.Data
@@ -8,7 +7,7 @@ namespace CampusConnect.Web.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
+
         }
 
         public DbSet<Student> Students { get; set; }

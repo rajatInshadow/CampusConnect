@@ -20,7 +20,7 @@ namespace CampusConnect.Web.Models.NewFolder2
         public string UserType { get; set; }
 
         [Required(ErrorMessage = "Passowrd is Required")]
-        [StringLength(40,MinimumLength =8, ErrorMessage = "The {0} must be at {2} and max {1} character")]
+        [StringLength(40, MinimumLength = 8, ErrorMessage = "The {0} must be at {2} and max {1} character")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
