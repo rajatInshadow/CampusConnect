@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CampusConnect.Web.Models.NewFolder2
+namespace CampusConnect.Models.Models.ViewModels
 {
     public class RegisterViewModel
     {
@@ -14,7 +14,7 @@ namespace CampusConnect.Web.Models.NewFolder2
         [Required(ErrorMessage = "Mobile is Required")]
         [Phone]
         [MaxLength(10)]
-        public string phone { get; set; }
+        public string Phone { get; set; }
 
         [Required(ErrorMessage = "Type of user is Required")]
         public string UserType { get; set; }
@@ -25,8 +25,9 @@ namespace CampusConnect.Web.Models.NewFolder2
         public string Password { get; set; }
 
         [Required(ErrorMessage = "confirm Passowrd is Required")]
+        [StringLength(40, MinimumLength = 8, ErrorMessage = "The {0} must be at {2} and max {1} character")]
         [DataType(DataType.Password)]
-        public string confirmPassword { get; set; }
+        public string ConfirmPassword { get; set; }
 
     }
 }

@@ -3,23 +3,26 @@
 *@
 @{
 }
+
+@model CampusConnect.Models.Models.ViewModels.RegisterViewModel
 <h1>Signup</h1>
-<div>
-    <div>
-       <label>name</label>
-       <input type="text" name="name" value="" />
+<div class="container border border-primary">
+    <form method="post" asp-action="Register">
+    <div class="form-group">
+       <label asp-for="Name">Name</label>
+       <input type="text" asp-for="Name" value="" />
     </div>
     <div>
-        <label>emailId</label>
-        <input type="text" name="emailId" value="" />
+        <label asp-for="Email">emailId</label>
+        <input type="text" asp-for="Email" value="" />
     </div>
     <div>
-        <label>mobile no.</label>
-        <input type="number" name="mobile no." value="" />
+        <label asp-for="Phone">mobile no.</label>
+        <input type="tel" asp-for="Phone" value="" />
     </div>
     <div>
-        <label for="userType">Type of user:</label>
-        <select name="userType" id="userType">
+        <label asp-for="UserType">Type of user:</label>
+        <select asp-for="UserType" id="userType">
             <option value="Select">Select</option>
             <option value="Admin">Admin</option>
             <option value="Operator">Operator</option>
@@ -29,11 +32,16 @@
         <br><br>
     </div>
     <div>
-        <label>password</label>
-        <input type="password" name="password" value="" />
+        <label asp-for="Password">password</label>
+        <input type="password" asp-for="Password" value="" />
     </div>
     <div>
-        <label>confirm password</label>
-        <input type="confirm password" name="confirm password" value="" />
+            <label asp-for="ConfirmPassword">confirm password</label>
+            <input type="password" asp-for="ConfirmPassword" value="" />
     </div>
+
+    <div>
+        <button type="submit" class="btn btn-success">Sign Up</button>
+    </div>
+    </form>
 </div>

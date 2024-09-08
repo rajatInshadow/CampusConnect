@@ -1,11 +1,11 @@
 using CampusConnect.Models.Interfaces;
-using CampusConnect.
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IAccountService, AccountService>();
+
 
 var app = builder.Build();
 

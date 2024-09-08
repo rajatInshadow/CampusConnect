@@ -1,17 +1,19 @@
 ﻿using CampusConnect.Models.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using CampusConnect.Models.Models;
-using CampusConnect.Web.Models.NewFolder2;
+using CampusConnect.Models.Models.ViewModels;
+using CampusConnect.
+
 
 namespace CampusConnect.Application.Services
 {
-    public class AccountServices : IAccountService
+    public class AccountServices 
     {
         public AccountServices() { }
 
-        public  Task<ActionResult> ResgisterUser(RegisterViewModel model)
+        public  void ResgisterUser(RegisterViewModel model)
         {
-            return View(model);
+            return ;
         }
     }
 }
