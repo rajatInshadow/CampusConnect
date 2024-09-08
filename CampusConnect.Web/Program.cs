@@ -1,10 +1,14 @@
-using CampusConnect.Web.Data;
+using CampusConnect.Models.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using CampusConnect.Application.Services;
+using CampusConnect.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IAccountService, AccountServices>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("CampusConnectPortal")));
