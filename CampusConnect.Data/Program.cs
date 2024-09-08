@@ -1,19 +1,14 @@
-using CampusConnect.Models.Interfaces;
-using Microsoft.EntityFrameworkCore;
-using CampusConnect.Application.Services;
 using CampusConnect.Data;
-
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IAccountService, AccountServices>();
-
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("CampusConnectPortal")));
 
 var app = builder.Build();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("CampusConnectPortal")));
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

@@ -1,8 +1,10 @@
-﻿using CampusConnect.Models.Interfaces;
+﻿using CampusConnect.Data;
+using CampusConnect.Models.Interfaces;
+using CampusConnect.Models.Models.Entities;
 using CampusConnect.Models.Models.ViewModels;
 using CampusConnect.Web.Data;
-using CampusConnect.Web.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace CampusConnect.Web.Controllers
 {
@@ -11,9 +13,10 @@ namespace CampusConnect.Web.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IAccountService _accountService;
 
-        public AccountController(ApplicationDbContext context)
+        public AccountController(ApplicationDbContext context, IAccountService accountService)
         {
              _context = context;
+            _accountService = accountService;
         }
 
         [HttpGet]
@@ -29,22 +32,12 @@ namespace CampusConnect.Web.Controllers
 
             if (ModelState.IsValid)
             {
-               
-                var user = new User()
-                {
-                    Name = model.Name,
-                    Phone = model.Phone,
-                    UserType = model.UserType,
-                    Email = model.Email,
-                    Password = model.Password
-                };
 
-                _context.Users.Add(user);
-                _context.SaveChanges();
+                  _accountService.ResgisterUser(model);
                 
             }
 
-            return; 
+            return ; 
 
         }
     }
