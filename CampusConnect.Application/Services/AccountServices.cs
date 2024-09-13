@@ -7,6 +7,7 @@ using CampusConnect.Models.Models.Entities;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http.HttpResults;
+using CampusConnect.Application.Utils;
 
 
 namespace CampusConnect.Application.Services
@@ -14,15 +15,26 @@ namespace CampusConnect.Application.Services
     public class AccountServices : IAccountService
     {
         private readonly ApplicationDbContext _context;
+        private readonly PasswordHasher _passwordHasher;
 
-        public AccountServices(ApplicationDbContext context)
+        public AccountServices(ApplicationDbContext context, PasswordHasher passwordHasher)
         {
             _context = context;
+            _passwordHasher = passwordHasher;
         }
 
-        public void ResgisterUser(RegisterViewModel model)
+        public bool ResgisterUser(RegisterViewModel model)
         {
-           
+            var isValidUser = _context.Users.Where(e => e.Email == model.Email).FirstOrDefault();
+            if (isValidUser != null)
+            {
+                var isValid = false;
+                return isValid;
+            }
+            else
+            {
+
+                string encryptedPassword = _passwordHasher.EncryptPassword(model.Password);
 
                 var user = new User()
                 {
@@ -30,14 +42,39 @@ namespace CampusConnect.Application.Services
                     Phone = model.Phone,
                     UserType = model.UserType,
                     Email = model.Email,
-                    Password = model.Password
+                    Password = encryptedPassword
                 };
 
                 _context.Users.Add(user);
                 _context.SaveChanges();
 
-            
-            return ;
+
+                return true;
+            }
+        }
+
+        public User LoginUser(LogInViewModel model)
+        {
+
+            var user = _context.Users.Where(e => e.Email == model.Email).FirstOrDefault();
+            if (user != null)
+            {
+                var isValidUser = _passwordHasher.VerifyPassword(model.Password, user.Password);
+
+                if (isValidUser)
+                {
+                    return user;
+                }
+                else
+                {
+
+                    return null;
+                }
+
+
+            }
+            return null;
+
         }
     }
 }

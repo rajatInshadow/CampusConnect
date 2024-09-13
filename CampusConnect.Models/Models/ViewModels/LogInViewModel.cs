@@ -6,6 +6,7 @@ public class LogInViewModel
 {
     [Required(ErrorMessage = "Email is Required")]
     [EmailAddress]
+    //[RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", ErrorMessage = "Please Enter Valid Email Address")]
     public string Email { get; set; }
 
 
@@ -14,6 +15,5 @@ public class LogInViewModel
     [DataType(DataType.Password)]
     public string Password { get; set; }
 
-    [Required(ErrorMessage = "Type of user is Required")]
-    public string UserType { get; set; }
+   
 }

@@ -6,6 +6,7 @@ namespace CampusConnect.Models.Interfaces
 {
     public interface IAccountService
     {
-        public void ResgisterUser(RegisterViewModel model);
+        public bool ResgisterUser(RegisterViewModel model);
+        public User LoginUser(LogInViewModel model);
     }
 }
