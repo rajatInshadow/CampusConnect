@@ -1,0 +1,23 @@
+﻿@model CampusConnect.Models.Models.ViewModels.LogInViewModel
+
+<h1>Login</h1>
+<div class="container border border-primary pt-2">
+    <form asp-action="Login" method="post">
+
+        <div class="form-group">
+            <label asp-for="Email">Email</label>
+            <input type="email" asp-for="Email" placeholder="Please enter email Address" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password">Password</label>
+            <input type="pasword" asp-for="Password" placeholder="Please enter password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div>
+            <button class="btn btn-success" type="submit">Log in</button>
+        </div>
+    </form>
+
+</div>
