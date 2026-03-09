@@ -1,0 +1,15 @@
+F:\Projects\CampusConnect\CampusConnect.Application\bin\Debug\net8.0\CampusConnect.Application.deps.json
+F:\Projects\CampusConnect\CampusConnect.Application\bin\Debug\net8.0\CampusConnect.Application.dll
+F:\Projects\CampusConnect\CampusConnect.Application\bin\Debug\net8.0\CampusConnect.Application.pdb
+F:\Projects\CampusConnect\CampusConnect.Application\bin\Debug\net8.0\CampusConnect.Model.dll
+F:\Projects\CampusConnect\CampusConnect.Application\bin\Debug\net8.0\CampusConnect.Model.pdb
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\CampusConnect.Application.csproj.AssemblyReference.cache
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\CampusConnect.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\CampusConnect.Application.AssemblyInfoInputs.cache
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\CampusConnect.Application.AssemblyInfo.cs
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\CampusConnect.Application.csproj.CoreCompileInputs.cache
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\CampusCo.CA8C14EA.Up2Date
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\CampusConnect.Application.dll
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\refint\CampusConnect.Application.dll
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\CampusConnect.Application.pdb
+F:\Projects\CampusConnect\CampusConnect.Application\obj\Debug\net8.0\ref\CampusConnect.Application.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7vGkuqIyUNLGV6iuvftLb+HvcV3x7Kb5kIxZ6E+fGfg=",
+  "Source": "CampusConnect.Web",
+  "BasePath": "_content/CampusConnect.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

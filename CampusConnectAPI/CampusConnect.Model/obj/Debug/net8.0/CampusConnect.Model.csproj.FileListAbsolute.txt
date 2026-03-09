@@ -1,0 +1,11 @@
+F:\Projects\CampusConnect\CampusConnect.Model\bin\Debug\net8.0\CampusConnect.Model.deps.json
+F:\Projects\CampusConnect\CampusConnect.Model\bin\Debug\net8.0\CampusConnect.Model.dll
+F:\Projects\CampusConnect\CampusConnect.Model\bin\Debug\net8.0\CampusConnect.Model.pdb
+F:\Projects\CampusConnect\CampusConnect.Model\obj\Debug\net8.0\CampusConnect.Model.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\CampusConnect\CampusConnect.Model\obj\Debug\net8.0\CampusConnect.Model.AssemblyInfoInputs.cache
+F:\Projects\CampusConnect\CampusConnect.Model\obj\Debug\net8.0\CampusConnect.Model.AssemblyInfo.cs
+F:\Projects\CampusConnect\CampusConnect.Model\obj\Debug\net8.0\CampusConnect.Model.csproj.CoreCompileInputs.cache
+F:\Projects\CampusConnect\CampusConnect.Model\obj\Debug\net8.0\CampusConnect.Model.dll
+F:\Projects\CampusConnect\CampusConnect.Model\obj\Debug\net8.0\refint\CampusConnect.Model.dll
+F:\Projects\CampusConnect\CampusConnect.Model\obj\Debug\net8.0\CampusConnect.Model.pdb
+F:\Projects\CampusConnect\CampusConnect.Model\obj\Debug\net8.0\ref\CampusConnect.Model.dll
