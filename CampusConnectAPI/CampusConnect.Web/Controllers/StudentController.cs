@@ -39,7 +39,7 @@ namespace CampusConnect.Web.Controllers
             var isStudentEmailExist = await _studentRepository.GetStudentByEmail(student.Email);
             var isStudentPhoneExist = await _studentRepository.GetStudentByPhone(student.Phone);
 
-            if(isStudentEmailExist != null || isStudentPhoneExist != null)
+            if (isStudentEmailExist != null || isStudentPhoneExist != null)
             {
                 return isStudentEmailExist != null ? Conflict(new
                 {
@@ -52,6 +52,33 @@ namespace CampusConnect.Web.Controllers
             studentDto = await _studentRepository.AddStudent(student);
 
             return Ok(studentDto);
+        }
+
+
+        [HttpPost]
+        [Route("updateStudent")]
+        public async Task<ActionResult<StudentDto>> UpdateStudent(int Id, StudentDto student)
+        {
+            if (student == null)
+            {
+
+                return BadRequest("data is missing");
+            }
+            else
+            {
+              var updatedStudent =  await _studentRepository.UpdateStudent(Id,student);
+                return Ok(updatedStudent);
+            }
+
+        }
+
+
+        [HttpDelete]
+        public async Task<ActionResult<StudentDto>> DeleteStudent(int Id)
+        {
+            
+             await _studentRepository.DeleteStudent(Id);
+            return Ok("Record deleted Successfully");
         }
     }
 }

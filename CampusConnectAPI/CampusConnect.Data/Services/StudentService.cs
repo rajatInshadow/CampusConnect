@@ -44,14 +44,15 @@ namespace CampusConnect.Data.Services
             await _db.AddAsync(Entity);
             await _db.SaveChangesAsync();
 
+
             StudentDto newStudent = new StudentDto
             {
-                StudentID = student.StudentID,
-                Name = student.Name,
-                Email = student.Email,
-                Phone = student.Phone,
-                RegistrationDate = student.RegistrationDate,
-                DOB = student.DOB
+                StudentID = Entity.StudentID,
+                Name = Entity.Name,
+                Email = Entity.Email,
+                Phone = Entity.Phone,
+                RegistrationDate = Entity.RegistrationDate,
+                DOB = Entity.DOB
             };
 
 
@@ -132,7 +133,51 @@ namespace CampusConnect.Data.Services
             return getStudent;
         }
 
+        public async Task<StudentDto> UpdateStudent(int Id, StudentDto student)
+        {
+
+            if (student == null) { 
+                return null;
+            }
+            else
+            {
+
+                var existingStudent = await _db.Student.FindAsync(Id);
+                if (existingStudent != null)
+                {
+                    existingStudent.Email = student.Email;
+                    existingStudent.Phone = student.Phone;
+                    existingStudent.RegistrationDate = student.RegistrationDate;
+                    existingStudent.Name = student.Name;
 
 
+                  await  _db.SaveChangesAsync();
+                }
+                return new StudentDto
+                {
+                    StudentID = existingStudent.StudentID,
+                    Name = existingStudent.Name,
+                    Email = existingStudent.Email,
+                    Phone = existingStudent.Phone,
+                    RegistrationDate = existingStudent.RegistrationDate,
+
+                };
+
+            }
+
+        }
+
+
+        public async Task DeleteStudent(int Id)
+        {
+           
+            var student = await _db.Student.FindAsync(Id);
+            if (student != null)
+            {
+                _db.Student.Remove(student);
+               await _db.SaveChangesAsync();
+            }
+            
+        }
     }
 }

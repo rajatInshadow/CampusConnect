@@ -11,8 +11,8 @@ namespace CampusConnect.Application.Interfaces
     {
         Task<List<StudentDto>> GetAllStudent();
         Task<StudentDto> AddStudent(StudentDto student);
-        //Task<StudentDto> UpdateStudent(StudentDto student);
-        //Task DeleteStudent(int id);
+        Task<StudentDto> UpdateStudent(int id, StudentDto student);
+        Task DeleteStudent(int id);
         Task<StudentDto> GetStudentById(int id);
         Task<StudentDto> GetStudentByEmail(string email);
         Task<StudentDto> GetStudentByPhone(string phone);

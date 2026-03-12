@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projects\\CampusConnect\\CampusConnect.Model\\CampusConnect.Model.csproj": {}
+    "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\CampusConnect.Model.csproj": {}
   },
   "projects": {
-    "F:\\Projects\\CampusConnect\\CampusConnect.Model\\CampusConnect.Model.csproj": {
+    "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\CampusConnect.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\CampusConnect\\CampusConnect.Model\\CampusConnect.Model.csproj",
+        "projectUniqueName": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\CampusConnect.Model.csproj",
         "projectName": "CampusConnect.Model",
-        "projectPath": "F:\\Projects\\CampusConnect\\CampusConnect.Model\\CampusConnect.Model.csproj",
+        "projectPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\CampusConnect.Model.csproj",
         "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\CampusConnect\\CampusConnect.Model\\obj\\",
+        "outputPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\smart\\AppData\\Roaming\\NuGet\\NuGet.Config",

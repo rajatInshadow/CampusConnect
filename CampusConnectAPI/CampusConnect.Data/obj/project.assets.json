@@ -602,11 +602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\CampusConnect\\CampusConnect.Data\\CampusConnect.Data.csproj",
+      "projectUniqueName": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\CampusConnect.Data.csproj",
       "projectName": "CampusConnect.Data",
-      "projectPath": "F:\\Projects\\CampusConnect\\CampusConnect.Data\\CampusConnect.Data.csproj",
+      "projectPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\CampusConnect.Data.csproj",
       "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-      "outputPath": "F:\\Projects\\CampusConnect\\CampusConnect.Data\\obj\\",
+      "outputPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\smart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -624,11 +624,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Projects\\CampusConnect\\CampusConnect.Application\\CampusConnect.Application.csproj": {
-              "projectPath": "F:\\Projects\\CampusConnect\\CampusConnect.Application\\CampusConnect.Application.csproj"
+            "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\CampusConnect.Application.csproj": {
+              "projectPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\CampusConnect.Application.csproj"
             },
-            "F:\\Projects\\CampusConnect\\CampusConnect.Model\\CampusConnect.Model.csproj": {
-              "projectPath": "F:\\Projects\\CampusConnect\\CampusConnect.Model\\CampusConnect.Model.csproj"
+            "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\CampusConnect.Model.csproj": {
+              "projectPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\CampusConnect.Model.csproj"
             }
           }
         }

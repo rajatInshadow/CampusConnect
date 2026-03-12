@@ -3189,11 +3189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\CampusConnect\\CampusConnect.Web\\CampusConnect.Web.csproj",
+      "projectUniqueName": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\CampusConnect.Web.csproj",
       "projectName": "CampusConnect.Web",
-      "projectPath": "F:\\Projects\\CampusConnect\\CampusConnect.Web\\CampusConnect.Web.csproj",
+      "projectPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\CampusConnect.Web.csproj",
       "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-      "outputPath": "F:\\Projects\\CampusConnect\\CampusConnect.Web\\obj\\",
+      "outputPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\smart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3211,11 +3211,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Projects\\CampusConnect\\CampusConnect.Application\\CampusConnect.Application.csproj": {
-              "projectPath": "F:\\Projects\\CampusConnect\\CampusConnect.Application\\CampusConnect.Application.csproj"
+            "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\CampusConnect.Application.csproj": {
+              "projectPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\CampusConnect.Application.csproj"
             },
-            "F:\\Projects\\CampusConnect\\CampusConnect.Data\\CampusConnect.Data.csproj": {
-              "projectPath": "F:\\Projects\\CampusConnect\\CampusConnect.Data\\CampusConnect.Data.csproj"
+            "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\CampusConnect.Data.csproj": {
+              "projectPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\CampusConnect.Data.csproj"
             }
           }
         }

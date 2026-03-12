@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fSkmZC1psF4=",
+  "dgSpecHash": "mmHIH8d/dmY=",
   "success": true,
-  "projectFilePath": "F:\\Projects\\CampusConnect\\CampusConnect.Data\\CampusConnect.Data.csproj",
+  "projectFilePath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\CampusConnect.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\smart\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.23\\microsoft.entityframeworkcore.8.0.23.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.23\\microsoft.entityframeworkcore.abstractions.8.0.23.nupkg.sha512",
