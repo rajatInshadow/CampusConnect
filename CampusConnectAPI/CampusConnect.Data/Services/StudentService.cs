@@ -112,16 +112,18 @@ namespace CampusConnect.Data.Services
 
         public async Task<StudentDto> GetStudentByPhone(string phone)
         {
-            var getStudent = await _db.Student.Where(x => x.Phone == phone)
-                .Select(x => new StudentDto
-                {
-                    StudentID = x.StudentID,
-                    Name = x.Name,
-                    Email = x.Email,
-                    Phone = x.Phone,
-                    RegistrationDate = x.RegistrationDate
-                })
-                .FirstOrDefaultAsync();
+            var getStudent = await _db.Student
+                                    .AsNoTracking()
+                                    .Where(x => x.Phone == phone)
+                                    .Select(x => new StudentDto
+                                    {
+                                        StudentID = x.StudentID,
+                                        Name = x.Name,
+                                        Email = x.Email,
+                                        Phone = x.Phone,
+                                        RegistrationDate = x.RegistrationDate
+                                    })
+                                    .FirstOrDefaultAsync();
 
             if (getStudent == null)
             {
@@ -143,16 +145,17 @@ namespace CampusConnect.Data.Services
             {
 
                 var existingStudent = await _db.Student.FindAsync(Id);
-                if (existingStudent != null)
+                if (existingStudent == null)
                 {
-                    existingStudent.Email = student.Email;
-                    existingStudent.Phone = student.Phone;
-                    existingStudent.RegistrationDate = student.RegistrationDate;
-                    existingStudent.Name = student.Name;
-
-
-                  await  _db.SaveChangesAsync();
+                    return null;
                 }
+                existingStudent.Email = student.Email;
+                existingStudent.Phone = student.Phone;
+                existingStudent.RegistrationDate = student.RegistrationDate;
+                existingStudent.Name = student.Name;
+
+
+                await _db.SaveChangesAsync();
                 return new StudentDto
                 {
                     StudentID = existingStudent.StudentID,

@@ -55,7 +55,7 @@ namespace CampusConnect.Web.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPut("{Id}")]
         [Route("updateStudent")]
         public async Task<ActionResult<StudentDto>> UpdateStudent(int Id, StudentDto student)
         {
@@ -67,13 +67,17 @@ namespace CampusConnect.Web.Controllers
             else
             {
               var updatedStudent =  await _studentRepository.UpdateStudent(Id,student);
+                if (updatedStudent == null)
+                {
+                    return NotFound();
+                }
                 return Ok(updatedStudent);
             }
 
         }
 
 
-        [HttpDelete]
+        [HttpDelete("{Id}")]
         public async Task<ActionResult<StudentDto>> DeleteStudent(int Id)
         {
             
