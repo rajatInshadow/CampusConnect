@@ -44,7 +44,7 @@ export default function StudentList() {
     }
     loadStudents();
     console.log(studentList, typeof studentList);
-  }, []);
+  }, [studentList]);
 
   return (
     <>
@@ -58,6 +58,7 @@ export default function StudentList() {
                     <StyledTableCell align="center">ID</StyledTableCell>
                     <StyledTableCell align="center">Name</StyledTableCell>
                     <StyledTableCell align="center">Email</StyledTableCell>
+                    <StyledTableCell align="center">Status</StyledTableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -72,7 +73,11 @@ export default function StudentList() {
                       <StyledTableCell align="center">
                         {row.email}
                       </StyledTableCell>
+                       <StyledTableCell align="center">
+                        Test
+                      </StyledTableCell>
                     </StyledTableRow>
+                    
                   ))}
                 </TableBody>
               </Table>
