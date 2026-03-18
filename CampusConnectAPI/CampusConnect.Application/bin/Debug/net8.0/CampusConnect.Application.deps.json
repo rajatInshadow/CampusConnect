@@ -16,7 +16,10 @@
       },
       "CampusConnect.Model/1.0.0": {
         "runtime": {
-          "CampusConnect.Model.dll": {}
+          "CampusConnect.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

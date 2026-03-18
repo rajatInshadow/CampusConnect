@@ -60,7 +60,6 @@ namespace CampusConnect.Data.Services
             return newStudent;
         }
 
-
         public async Task<StudentDto> GetStudentById(int id)
         {
             var getStudent = await _db.Student.Where(x => x.StudentID == id)
@@ -84,7 +83,6 @@ namespace CampusConnect.Data.Services
             return getStudent;
         }
 
-
         public async Task<StudentDto> GetStudentByEmail(string email)
         {
             var getStudent = await _db.Student.Where(x => x.Email == email)
@@ -107,8 +105,6 @@ namespace CampusConnect.Data.Services
 
             return getStudent;
         }
-
-
 
         public async Task<StudentDto> GetStudentByPhone(string phone)
         {
@@ -169,7 +165,6 @@ namespace CampusConnect.Data.Services
             }
 
         }
-
 
         public async Task DeleteStudent(int Id)
         {

@@ -44,7 +44,7 @@ export default function StudentList() {
     }
     loadStudents();
     console.log(studentList, typeof studentList);
-  }, [studentList]);
+  }, []);
 
   return (
     <>

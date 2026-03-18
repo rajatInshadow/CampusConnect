@@ -28,6 +28,42 @@ namespace CampusConnect.Web.Controllers
 
         }
 
+        [HttpGet("{Id}")]
+        
+        public async Task<ActionResult<StudentDto>> GetStudentById(int Id)
+        {
+            StudentDto student = await _studentRepository.GetStudentById(Id);
+            if(student == null)
+            {
+                return NotFound("student does not exits");
+            }
+            return Ok(student);
+        }
+
+        [HttpGet]
+        [Route("GetStudentByEmail")]
+        public async Task<ActionResult<StudentDto>> GetStudentByEmail(string email)
+        {
+            StudentDto student = await _studentRepository.GetStudentByEmail(email);
+            if (student == null)
+            {
+                return NotFound("student does not exits");
+            }
+            return Ok(student);
+        }
+
+        [HttpGet]
+        [Route("GetStudentByPhone")]
+        public async Task<ActionResult<StudentDto>> GetStudentByPhone(string phone)
+        {
+            StudentDto student = await _studentRepository.GetStudentByPhone(phone);
+            if (student == null)
+            {
+                return NotFound("student does not exits");
+            }
+            return Ok(student);
+        }
+
         [HttpPost]
         public async Task<ActionResult<StudentDto>> AddStudent(StudentDto student)
         {
@@ -56,7 +92,6 @@ namespace CampusConnect.Web.Controllers
 
 
         [HttpPut("{Id}")]
-        [Route("updateStudent")]
         public async Task<ActionResult<StudentDto>> UpdateStudent(int Id, StudentDto student)
         {
             if (student == null)

@@ -120,7 +120,6 @@ F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\Sw
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\System.ClientModel.dll
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\System.Drawing.Common.dll
-F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\System.Formats.Asn1.dll
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\System.Memory.Data.dll
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\System.Runtime.Caching.dll
@@ -155,11 +154,6 @@ F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\Ca
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\CampusConnect.Web.sourcelink.json
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.build.json
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.development.json
-F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets\msbuild.CampusConnect.Web.Microsoft.AspNetCore.StaticWebAssets.props
-F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets\msbuild.build.CampusConnect.Web.props
-F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CampusConnect.Web.props
-F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CampusConnect.Web.props
-F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.pack.json
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\scopedcss\bundle\CampusConnect.Web.styles.css
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\CampusCo.B4422638.Up2Date
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\CampusConnect.Web.dll
@@ -167,3 +161,11 @@ F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\re
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\CampusConnect.Web.pdb
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\CampusConnect.Web.genruntimeconfig.cache
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\ref\CampusConnect.Web.dll
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\CampusConnect.Web.staticwebassets.endpoints.json
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "7vGkuqIyUNLGV6iuvftLb+HvcV3x7Kb5kIxZ6E+fGfg=",
-  "Source": "CampusConnect.Web",
-  "BasePath": "_content/CampusConnect.Web",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"U+62d6z3lQ/xH43Q41WbLxXXIFnYYXKibIZFh4kerDk=","Source":"CampusConnect.Web","BasePath":"_content/CampusConnect.Web","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
