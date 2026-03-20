@@ -14,3 +14,9 @@ export async function createStudent(data: Student ): Promise<Student> {
     console.log("res ",res);
     return res.data;
 }
+
+export async function getStudentById(Id:number): Promise<Student> {
+    const res = await apiClient.get(`/student/${Id}`);
+    console.log("get student id ", res)
+    return res.data;
+}

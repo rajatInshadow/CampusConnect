@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Student } from "../../utils/types";
-import { getStudent } from "../../services/studentService";
+import { getStudent, getStudentById } from "../../services/studentService";
 import {
   Paper,
   styled,
@@ -12,6 +12,7 @@ import {
   TableHead,
   TableRow,
 } from "@mui/material";
+import { useNavigate, useParams } from "react-router-dom";
 
 const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
@@ -35,14 +36,23 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
 
 export default function StudentList() {
   const [studentList, setStudentList] = useState<Student[]>();
+  const [studentForm, setStudentForm] = useState<boolean>(false);
+  const navigate = useNavigate();
+  const { id } = useParams();
 
   useEffect(() => {
+    if (id) {
+      const data = getStudentById(Number(id));
+      console.log("with id ", data);
+    } else {
+      loadStudents();
+    }
+
     async function loadStudents() {
       const data = await getStudent();
       console.log("data ", data);
       setStudentList(data);
     }
-    loadStudents();
     console.log(studentList, typeof studentList);
   }, []);
 
@@ -58,12 +68,15 @@ export default function StudentList() {
                     <StyledTableCell align="center">ID</StyledTableCell>
                     <StyledTableCell align="center">Name</StyledTableCell>
                     <StyledTableCell align="center">Email</StyledTableCell>
+                    <StyledTableCell align="center">Phone</StyledTableCell>
+                     <StyledTableCell align="center">DOB</StyledTableCell>
                     <StyledTableCell align="center">Status</StyledTableCell>
+                    <StyledTableCell align="center">Action</StyledTableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
                   {studentList?.map((row) => (
-                    <StyledTableRow key={row.name}>
+                    <StyledTableRow key={row.studentID}>
                       <StyledTableCell align="center">
                         {row.studentID}
                       </StyledTableCell>
@@ -74,10 +87,23 @@ export default function StudentList() {
                         {row.email}
                       </StyledTableCell>
                        <StyledTableCell align="center">
-                        Test
+                        {row.phone}
+                      </StyledTableCell>
+                       <StyledTableCell align="center">
+                        {row.dob}
+                      </StyledTableCell>
+                      <StyledTableCell align="center">Test</StyledTableCell>
+                      <StyledTableCell align="center">
+                        <button
+                          onClick={() => {
+                            navigate(`/EditStudent/${row.studentID}`);
+                          }}
+                        >
+                          <i className="fa-solid fa-pen-to-square">Edit</i>
+                          <i className="fa-sharp fa-solid fa-user"></i>
+                        </button>
                       </StyledTableCell>
                     </StyledTableRow>
-                    
                   ))}
                 </TableBody>
               </Table>

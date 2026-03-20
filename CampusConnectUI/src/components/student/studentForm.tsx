@@ -5,15 +5,21 @@ import {
   useFormik,
   useFormikContext,
 } from "formik";
-import { createStudent } from "../../services/studentService";
+import { createStudent, getStudentById } from "../../services/studentService";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { Student } from "../../utils/types";
 
 export default function StudentForm() {
+  const [isCreate, setIsCreate] = useState<boolean>(true);
+    const [student, setStudent] = useState<Student>();
+  const { id } = useParams();
   const formik =  useFormik({
     initialValues: {
       name: "",
       email: "",
-      DOB: "",
-      Phone: "",
+      dob: "",
+      phone: "",
     },
      onSubmit: (values) => {
       console.log(values);
@@ -25,34 +31,48 @@ export default function StudentForm() {
     },
   });
 
+useEffect(() => {
+  const fetchData = async () => {
+    const data = await getStudentById(Number(id));
+    console.log("with id ", data);
+    setStudent(data)
+
+  };
+
+  if(id) {
+    fetchData();
+  }
+
+}, [id]);
+
   return (
     <>
       <div className="container">
         <div className="row">
-          <h1>Form</h1>
+          <h1>{isCreate ? "Create Student" : "Update Student"}</h1>
           <form onSubmit={formik.handleSubmit}>
             <input
               name="name"
-              value={formik.values.name}
+              value={id ? student?.name :formik.values.name}
               onChange={formik.handleChange}
               placeholder="Name"
             />
             <input
               name="email"
-              value={formik.values.email}
+              value={id ? student?.email :formik.values.email}
               onChange={formik.handleChange}
               placeholder="Email"
             />{" "}
-            <input
+            <input  
               name="Phone"
-              value={formik.values.Phone}
+              value={id ? student?.phone :formik.values.phone}
               onChange={formik.handleChange}
               placeholder="Mobile"
             />{" "}
             <input
               name="DOB"
               type="Date"
-              value={formik.values.DOB}
+              value={id ? student?.dob :formik.values.dob}
               onChange={formik.handleChange}
               placeholder="DOB"
             />{" "}

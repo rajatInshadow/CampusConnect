@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampusConnect.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60fdf2264976d81f2e4847ea42cfe4c94e9ba5f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c290dee224d9556a3fffe6873943411a6d5a8fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampusConnect.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampusConnect.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
