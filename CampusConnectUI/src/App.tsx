@@ -4,14 +4,17 @@ import './App.css';
 import StudentList from './components/student/StudentList';
 import StudentForm from './components/student/studentForm';
 import { Route, Routes } from 'react-router-dom';
+import { Login } from './pages/login/login';
 
 function App() {
   return (
     <div className="App">
       
-      <StudentList/>
       <Routes>
+        <Route path="/Student/:id" element={<StudentList />} ></Route>
       <Route path="/EditStudent/:id" element={<StudentForm />} ></Route>
+      
+      <Route path="/login" element={<Login />} ></Route>
       </Routes>
     </div>
   );
