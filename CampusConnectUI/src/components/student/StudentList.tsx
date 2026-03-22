@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Student } from "../../utils/types";
-import { getStudent, getStudentById } from "../../services/studentService";
+import { deleteStudent, getStudent, getStudentById } from "../../services/studentService";
 import {
   Paper,
   styled,
@@ -13,6 +13,7 @@ import {
   TableRow,
 } from "@mui/material";
 import { useNavigate, useParams } from "react-router-dom";
+import Button from "../common/Button";
 
 const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
@@ -100,7 +101,12 @@ export default function StudentList() {
                           }}
                         >
                           <i className="fa-solid fa-pen-to-square">Edit</i>
-                          <i className="fa-sharp fa-solid fa-user"></i>
+                          </button>
+                          <button  onClick={() => {
+                            const res = deleteStudent(row.studentID);
+                            console.log(res);
+                          }}>
+                          <i className="fa-sharp fa-solid fa-user">Delete</i>
                         </button>
                       </StyledTableCell>
                     </StyledTableRow>

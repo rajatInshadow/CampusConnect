@@ -20,3 +20,9 @@ export async function getStudentById(Id:number): Promise<Student> {
     console.log("get student id ", res)
     return res.data;
 }
+
+export async function deleteStudent(Id:number): Promise<string> {
+    const res = await apiClient.delete(`/student/${Id}`);
+    console.log(res);
+    return res.data;
+}
