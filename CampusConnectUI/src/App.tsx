@@ -11,7 +11,8 @@ function App() {
     <div className="App">
       
       <Routes>
-        <Route path="/Student/:id" element={<StudentList />} ></Route>
+        <Route path="/Student" element={<StudentList />} ></Route>
+          <Route path="/CreateStudent" element={<StudentForm />} ></Route>
       <Route path="/EditStudent/:id" element={<StudentForm />} ></Route>
       
       <Route path="/login" element={<Login />} ></Route>

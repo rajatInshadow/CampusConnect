@@ -19,12 +19,14 @@ export function Login() {
           <div className="col-md-6">
             <strong>Login form</strong>
             <form onSubmit={loginForm.handleSubmit}>
-              <input
-                name="email"
-                value={loginForm.values.email}
-                onChange={loginForm.handleChange}
-                placeholder="Email"
-              />{" "}
+                <div className="form-filed">
+                    <label htmlFor="email">Email</label>
+                    <input
+                        name="email"
+                        value={loginForm.values.email}
+                        onChange={loginForm.handleChange}
+                    />{" "}
+                </div>
               <input
                 name="password"
                 value={loginForm.values.password}
