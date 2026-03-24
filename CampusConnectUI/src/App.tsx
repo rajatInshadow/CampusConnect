@@ -5,10 +5,12 @@ import StudentList from './components/student/StudentList';
 import StudentForm from './components/student/studentForm';
 import { Route, Routes } from 'react-router-dom';
 import { Login } from './pages/login/login';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <div className="App">
+      <ToastContainer />
       
       <Routes>
         <Route path="/Student" element={<StudentList />} ></Route>

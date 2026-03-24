@@ -10,6 +10,10 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Student } from "../../utils/types";
 import { StudentValidationSchema } from "../../utils/validations";
+import Alert from "@mui/material/Alert";
+import { render } from "@testing-library/react";
+import { toast } from "react-toastify";
+import { FloatingInputTextField } from "../common/Input";
 
 export default function StudentForm() {
   const [isCreate, setIsCreate] = useState<boolean>(true);
@@ -30,6 +34,7 @@ export default function StudentForm() {
         studentID: 1,
       };
       createStudent(payload);
+      toast.success("Form submitted successfully!");
     },
   });
 
@@ -49,15 +54,19 @@ export default function StudentForm() {
     <>
       <div className="container">
         <div className="row">
+          <div className="col">
+            
           <h1>{isCreate ? "Create Student" : "Update Student"}</h1>
           <form onSubmit={formik.handleSubmit}>
-            <input
+            {/* <input
               name="name"
               value={id ? student?.name : formik.values.name}
               onChange={formik.handleChange}
               placeholder="Name"
               onBlur={formik.handleBlur}
-            />
+            /> */}
+            <FloatingInputTextField name="name" value={formik.values.name} lable="Name"               onChange={formik.handleChange}
+              onBlur={formik.handleBlur}/>
             {formik.touched.name && formik.errors.name && (
               <div style={{ color: "red" }}>{formik.errors.name}</div>
             )}
@@ -94,7 +103,9 @@ export default function StudentForm() {
             )}
             <button type="submit">Submit</button>
           </form>
+
         </div>
+          </div>
       </div>
     </>
   );

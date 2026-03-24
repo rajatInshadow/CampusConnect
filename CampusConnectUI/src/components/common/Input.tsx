@@ -1,7 +1,44 @@
+import React from "react";
+import "./Input.css";
+
+// Common props type
 type InputProps = {
-  label: string;
+  value: string;
+  lable: string;
+  name: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onBlur: (e: React.FocusEvent<HTMLInputElement>) => void;
+  error?: string;
+  touched?: string;
 };
 
-export default function Input({ label }: InputProps) {
-  return <input>{label}</input>;
-}
+export const FloatingInputTextField: React.FC<InputProps> = ({
+  value,
+  lable,
+  name,
+  onChange,
+  onBlur,
+  error,
+  touched
+}) => {
+  return (
+    <div className="floatingInput-group">
+      <input
+        id={value}
+        className="floatingInput-field"
+        name={name}
+        type="text"
+        onChange={onChange}
+        onBlur={onBlur}
+        placeholder=" "
+      />
+      <label className="floatingInput-label" htmlFor={name}>
+        {lable}
+      </label>
+
+      {error && touched && (
+        <span className="error-text">{error}</span>
+      )}
+    </div>
+  );
+};

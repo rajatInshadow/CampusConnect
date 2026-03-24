@@ -1,0 +1,29 @@
+.floatingInput-group {
+  width: 100%;
+  position: relative;
+  margin: 20px 0px;
+}
+
+.floatingInput-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.floatingInput-label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  transition: 0.3s ease;
+  pointer-events: none;
+  padding: 0 5px;
+  color: grey;
+}
+
+.floatingInput-group .floatingInput-field:focus + .floatingInput-label,
+.floatingInput-group .floatingInput-field:not(:placeholder-shown) + .floatingInput-label,
+.floatingInput-field {
+  top: 0px;
+  font-size: 14px;
+}
