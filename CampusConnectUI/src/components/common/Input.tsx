@@ -9,7 +9,8 @@ type InputProps = {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onBlur: (e: React.FocusEvent<HTMLInputElement>) => void;
   error?: string;
-  touched?: string;
+  touched?: boolean;
+  type?: string;
 };
 
 export const FloatingInputTextField: React.FC<InputProps> = ({
@@ -19,15 +20,16 @@ export const FloatingInputTextField: React.FC<InputProps> = ({
   onChange,
   onBlur,
   error,
-  touched
+  touched,
+  type
 }) => {
   return (
     <div className="floatingInput-group">
       <input
         id={value}
+        type={type}
         className="floatingInput-field"
         name={name}
-        type="text"
         onChange={onChange}
         onBlur={onBlur}
         placeholder=" "
@@ -42,3 +44,5 @@ export const FloatingInputTextField: React.FC<InputProps> = ({
     </div>
   );
 };
+
+

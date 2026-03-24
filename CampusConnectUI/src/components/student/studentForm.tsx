@@ -55,57 +55,51 @@ export default function StudentForm() {
       <div className="container">
         <div className="row">
           <div className="col">
-            
-          <h1>{isCreate ? "Create Student" : "Update Student"}</h1>
-          <form onSubmit={formik.handleSubmit}>
-            {/* <input
-              name="name"
-              value={id ? student?.name : formik.values.name}
-              onChange={formik.handleChange}
-              placeholder="Name"
-              onBlur={formik.handleBlur}
-            /> */}
-            <FloatingInputTextField name="name" value={formik.values.name} lable="Name"               onChange={formik.handleChange}
-              onBlur={formik.handleBlur}/>
-            {formik.touched.name && formik.errors.name && (
-              <div style={{ color: "red" }}>{formik.errors.name}</div>
-            )}
-            <input
-              name="email"
-              value={id ? student?.email : formik.values.email}
-              onChange={formik.handleChange}
-              placeholder="Email"
-              onBlur={formik.handleBlur}
-            />{" "}
-            {formik.touched.email && formik.errors.email && (
-              <div style={{ color: "red" }}>{formik.errors.email}</div>
-            )}
-            <input
-              name="phone"
-              value={id ? student?.phone : formik.values.phone}
-              onChange={formik.handleChange}
-              placeholder="Mobile"
-              onBlur={formik.handleBlur}
-            />{" "}
-            {formik.touched.phone && formik.errors.phone && (
-              <div style={{ color: "red" }}>{formik.errors.phone}</div>
-            )}
-            <input
-              name="dob"
-              type="Date"
-              value={id ? student?.dob : formik.values.dob}
-              onChange={formik.handleChange}
-              placeholder="DOB"
-              onBlur={formik.handleBlur}
-            />{" "}
-            {formik.touched.dob && formik.errors.dob && (
-              <div style={{ color: "red" }}>{formik.errors.dob}</div>
-            )}
-            <button type="submit">Submit</button>
-          </form>
-
-        </div>
+            <h1>{isCreate ? "Create Student" : "Update Student"}</h1>
+            <form onSubmit={formik.handleSubmit}>
+              <FloatingInputTextField
+                name="name"
+                value={formik.values.name}
+                lable="Name"
+                onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
+                error={formik.errors.name}
+                touched={formik.touched.name}
+                type="text"
+              />
+              <FloatingInputTextField
+                name="email"
+                value={formik.values.email}
+                lable="Email"
+                onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
+                error={formik.errors.email}
+                touched={formik.touched.email}
+              />
+              <FloatingInputTextField
+                name="phone"
+                value={formik.values.phone}
+                lable="Phone"
+                onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
+                error={formik.errors.phone}
+                touched={formik.touched.phone}
+                type="tel"
+              />
+              <FloatingInputTextField
+                name="dob"
+                value={formik.values.dob}
+                lable="Date of birth"
+                onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
+                error={formik.errors.dob}
+                touched={formik.touched.dob}
+                type="Date"
+              />
+              <button type="submit">Submit</button>
+            </form>
           </div>
+        </div>
       </div>
     </>
   );
