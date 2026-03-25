@@ -24,6 +24,8 @@ export const FloatingInputTextField: React.FC<InputProps> = ({
   type
 }) => {
   return (
+    <div className="floating-field">
+    
     <div className="floatingInput-group">
       <input
         id={value}
@@ -38,6 +40,8 @@ export const FloatingInputTextField: React.FC<InputProps> = ({
         {lable}
       </label>
 
+     
+    </div>
       {error && touched && (
         <span className="error-text">{error}</span>
       )}

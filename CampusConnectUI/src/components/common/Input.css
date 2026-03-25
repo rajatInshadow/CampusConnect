@@ -1,13 +1,16 @@
-.floatingInput-group {
-  width: 100%;
-  position: relative;
+.floating-field {
   margin: 20px 0px;
+}
+
+.floatingInput-group {
+  position: relative;
 }
 
 .floatingInput-field {
   width: 100%;
-  padding: 10px;
+  padding: 16px 10px;
   font-size: 18px;
+  line-height: 1.2;
 }
 
 .floatingInput-label {
@@ -19,6 +22,8 @@
   pointer-events: none;
   padding: 0 5px;
   color: grey;
+  line-height: 1;
+
 }
 
 .floatingInput-group .floatingInput-field:focus + .floatingInput-label,
