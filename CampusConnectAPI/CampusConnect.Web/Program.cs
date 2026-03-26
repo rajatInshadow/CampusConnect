@@ -1,4 +1,5 @@
 using CampusConnect.Application.Interfaces;
+using CampusConnect.Application.Security;
 using CampusConnect.Data;
 using CampusConnect.Data.Services;
 using Microsoft.EntityFrameworkCore;
@@ -28,6 +29,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IStudentRepository, StudentService>();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
 
 var app = builder.Build();
 app.UseCors("AllowReact");

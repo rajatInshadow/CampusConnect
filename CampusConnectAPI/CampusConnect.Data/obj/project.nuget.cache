@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ox5ZhkukE1U=",
+  "dgSpecHash": "Y9fz4Lqob3k=",
   "success": true,
   "projectFilePath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\CampusConnect.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\smart\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.23\\microsoft.entityframeworkcore.8.0.23.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.23\\microsoft.entityframeworkcore.abstractions.8.0.23.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.23\\microsoft.entityframeworkcore.analyzers.8.0.23.nupkg.sha512",
