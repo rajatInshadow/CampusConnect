@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CampusConnect.Application.Interfaces;
+using CampusConnect.Model.Dtos.Auth;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CampusConnect.Web.Controllers
@@ -7,5 +8,31 @@ namespace CampusConnect.Web.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
+        private readonly IAuthService _authService;
+
+        public AuthController(IAuthService authService)
+        {
+            _authService = authService;
+        }
+
+        [HttpGet]
+        public async Task<IEnumerable<UserDto>> Get()
+        {
+
+            IEnumerable<UserDto> userList = await _authService.GetUsers();
+            return userList;
+
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> SignUp(UserDto userDto)
+        {
+            var newUser = await _authService.SignUp(userDto);
+            return Ok(newUser);
+
+
+
+        }
     }
 }

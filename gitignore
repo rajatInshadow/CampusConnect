@@ -1,11 +1,66 @@
-# Build folders
+# Build Folders
 bin/
 obj/
+out/
 
-# Visual Studio
+# Visual Studio / Rider / VS Code files
 .vs/
+.vscode/
 *.user
 *.suo
+*.sln.docstates
+*.DotSettings.user
 
-# Logs
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Dotnet temporary files
+*.pidb
+*.svd
+*.pdb
+*.mdb
+*.cache
+*.dbmdl
+
+# ASP.NET Core / Web specific
+wwwroot/lib/
+wwwroot/node_modules/
+appsettings.*.json
+secrets.json
+logs/
 *.log
+
+# Rider specific
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test result files
+TestResults/
+*.trx
+
+# Entity Framework migrations
+Migrations/
+
+# Rider / JetBrains IDE files
+.idea/
+
+# JetBrains Rider caches
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+
+# Compiled libraries
+*.dll
+*.exe
+*.pdb

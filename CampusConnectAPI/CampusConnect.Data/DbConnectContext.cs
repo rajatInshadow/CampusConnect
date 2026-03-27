@@ -9,7 +9,7 @@ namespace CampusConnect.Data
         public DbConnectContext(DbContextOptions<DbConnectContext> options) : base(options) { }
 
         public DbSet<Student> Student { get; set; }
-        public DbSet<Users> Users { get; set; }
+        public DbSet<User> User { get; set; }
 
     }
 }

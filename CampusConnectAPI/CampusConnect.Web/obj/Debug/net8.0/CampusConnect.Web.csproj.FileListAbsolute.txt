@@ -169,3 +169,4 @@ F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\rj
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.build.json.cache
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\BCrypt.Net-Next.dll
