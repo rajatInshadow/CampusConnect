@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.25" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CampusConnect.Model\CampusConnect.Model.csproj" />
+    <ProjectReference Include="..\Utils\CampusConnect.Utils.csproj" />
   </ItemGroup>
 
 </Project>

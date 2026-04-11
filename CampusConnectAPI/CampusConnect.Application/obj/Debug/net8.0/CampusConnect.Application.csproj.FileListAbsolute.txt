@@ -29,3 +29,5 @@ F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Application\obj\Debug\n
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Application\obj\Debug\net8.0\refint\CampusConnect.Application.dll
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Application\obj\Debug\net8.0\CampusConnect.Application.pdb
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Application\obj\Debug\net8.0\ref\CampusConnect.Application.dll
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Application\bin\Debug\net8.0\CampusConnect.Utils.dll
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Application\bin\Debug\net8.0\CampusConnect.Utils.pdb

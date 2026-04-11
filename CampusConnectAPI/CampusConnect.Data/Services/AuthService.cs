@@ -2,6 +2,9 @@
 using CampusConnect.Application.Security;
 using CampusConnect.Model;
 using CampusConnect.Model.Dtos.Auth;
+using CampusConnect.Model.Enums;
+using CampusConnect.Utils.Common.ApiResponse;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.EntityFrameworkCore;
 
 namespace CampusConnect.Data.Services
@@ -33,23 +36,47 @@ namespace CampusConnect.Data.Services
             return listOfUsers;
         }
 
-        public async Task<UserDto> SignUp(UserDto user)
+        public async Task<ApiResponse<User>> SignUp(UserDto user)
         {
+            User isUserExist = await _dbConnection.User.FirstOrDefaultAsync(x => x.Email == user.Email);
+
+            if (isUserExist != null)
+            {
+                // Return null or throw an exception, or handle as per your application's error handling policy.
+                return new ApiResponse<User>
+                {
+                    Success = false,
+                    Message = "User with this email already exists.",
+                    Data = null
+
+                };
+            }
+
+            //UserRoles userRole = UserRoles.User;
+            string passwordHash = _passwordService.HashPassword(user.PasswordHash);
+
             User newUser = new User
             {
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 MiddleName = user.MiddleName,
                 PhoneNumber = user.PhoneNumber,
-                PasswordHash = user.PasswordHash,
+                PasswordHash = passwordHash,
                 Role = user.Role,
                 Email = user.Email
-
             };
-                await _dbConnection.User.AddAsync(newUser);
+
+            await _dbConnection.User.AddAsync(newUser);
             await _dbConnection.SaveChangesAsync();
 
-            return user;
+            return new ApiResponse<User>
+            {
+                Success = true,
+                Message = "User created Successfully",
+                Data = newUser
+
+            };
         }
+
     }
 }

@@ -1,4 +1,6 @@
-﻿using CampusConnect.Model.Dtos.Auth;
+﻿using CampusConnect.Model;
+using CampusConnect.Model.Dtos.Auth;
+using CampusConnect.Utils.Common.ApiResponse;
 
 namespace CampusConnect.Application.Interfaces
 {
@@ -6,6 +8,6 @@ namespace CampusConnect.Application.Interfaces
     {
 
         Task<IEnumerable<UserDto>> GetUsers();
-        Task<UserDto> SignUp(UserDto user);
+        Task<ApiResponse<User>> SignUp(UserDto user);
     }
 }

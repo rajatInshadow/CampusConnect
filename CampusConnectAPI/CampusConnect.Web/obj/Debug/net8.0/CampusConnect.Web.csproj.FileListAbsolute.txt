@@ -170,3 +170,6 @@ F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\st
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\BCrypt.Net-Next.dll
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\CampusConnect.Utils.dll
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Web\bin\Debug\net8.0\CampusConnect.Utils.pdb

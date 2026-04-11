@@ -33,3 +33,5 @@ F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Data\obj\Debug\net8.0\C
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Data\obj\Debug\net8.0\refint\CampusConnect.Data.dll
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Data\obj\Debug\net8.0\CampusConnect.Data.pdb
 F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Data\obj\Debug\net8.0\ref\CampusConnect.Data.dll
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Data\bin\Debug\net8.0\CampusConnect.Utils.dll
+F:\Projects\CampusConnect\CampusConnectAPI\CampusConnect.Data\bin\Debug\net8.0\CampusConnect.Utils.pdb

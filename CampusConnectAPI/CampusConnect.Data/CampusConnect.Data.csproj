@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CampusConnect.Application\CampusConnect.Application.csproj" />
     <ProjectReference Include="..\CampusConnect.Model\CampusConnect.Model.csproj" />
+    <ProjectReference Include="..\Utils\CampusConnect.Utils.csproj" />
   </ItemGroup>
 
 </Project>

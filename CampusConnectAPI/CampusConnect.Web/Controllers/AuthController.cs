@@ -16,7 +16,8 @@ namespace CampusConnect.Web.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<UserDto>> Get()
+        [Route("GetAllUser")]
+        public async Task<IEnumerable<UserDto>> GetAllUser()
         {
 
             IEnumerable<UserDto> userList = await _authService.GetUsers();
@@ -26,13 +27,16 @@ namespace CampusConnect.Web.Controllers
 
 
         [HttpPost]
+        [Route("Register")]
         public async Task<IActionResult> SignUp(UserDto userDto)
         {
             var newUser = await _authService.SignUp(userDto);
             return Ok(newUser);
 
-
-
         }
+
+
+
+
     }
 }

@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampusConnect.Data", "Campu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusConnect.Web", "CampusConnect.Web\CampusConnect.Web.csproj", "{DEF59591-39C7-4A36-B4C5-4414F2D66246}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusConnect.Utils", "Utils\CampusConnect.Utils.csproj", "{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DEF59591-39C7-4A36-B4C5-4414F2D66246}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEF59591-39C7-4A36-B4C5-4414F2D66246}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEF59591-39C7-4A36-B4C5-4414F2D66246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
