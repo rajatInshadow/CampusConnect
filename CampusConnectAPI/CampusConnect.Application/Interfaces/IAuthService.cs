@@ -9,5 +9,7 @@ namespace CampusConnect.Application.Interfaces
 
         Task<IEnumerable<UserDto>> GetUsers();
         Task<ApiResponse<User>> SignUp(UserDto user);
+        Task<LoginResponse> SignIn(LoginDto loginDto);
+        Task<ApiResponse<User>> SignOut(string email);
     }
 }

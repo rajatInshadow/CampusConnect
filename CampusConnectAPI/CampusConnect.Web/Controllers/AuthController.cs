@@ -35,8 +35,17 @@ namespace CampusConnect.Web.Controllers
 
         }
 
-
-
+        [HttpPost]
+        [Route("Login")]
+        public async Task<IActionResult> SignIn(LoginDto loginDto)
+        {
+            var user = await _authService.SignIn(loginDto);
+            if (!user.Success)
+            {
+                return BadRequest(user);
+            }
+            return Ok(user);
+        }
 
     }
 }

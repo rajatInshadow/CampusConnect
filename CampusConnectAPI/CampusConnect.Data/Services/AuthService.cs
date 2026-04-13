@@ -36,6 +36,53 @@ namespace CampusConnect.Data.Services
             return listOfUsers;
         }
 
+        public async Task<LoginResponse> SignIn(LoginDto userData)
+        {
+            User user = await _dbConnection.User.FirstOrDefaultAsync(x => x.Email == userData.Email);
+            if (user == null)
+            {
+                return new LoginResponse
+                {
+                    Success = false,
+                    Message = "User not found.",
+                    Token = null
+                };
+            }
+            UserDto userDto = new UserDto
+            {
+                Role = user.Role,
+                Email = user.Email,
+                UserId = user.UserId,
+                PasswordHash = user.PasswordHash,
+                FirstName = user.FirstName,
+                MiddleName = user.MiddleName,
+                LastName = user.LastName,
+                PhoneNumber = user.PhoneNumber
+            };
+            bool isPasswordValid = _passwordService.VerifyPassword(userData.Password, user.PasswordHash);
+            if (!isPasswordValid)
+            {
+                return new LoginResponse
+                {
+                    Success = false,
+                    Message = "Invalid Credential.",
+                    Token = null
+                };
+            }
+            string token = _passwordService.GenerateToken(userDto);
+            return new LoginResponse
+            {
+                Success = true,
+                Message = "User signed",
+                Token = token,
+            };
+        }
+
+        public Task<ApiResponse<User>> SignOut(string email)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<ApiResponse<User>> SignUp(UserDto user)
         {
             User isUserExist = await _dbConnection.User.FirstOrDefaultAsync(x => x.Email == user.Email);
