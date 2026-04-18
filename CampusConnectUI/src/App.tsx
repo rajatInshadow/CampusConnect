@@ -6,6 +6,7 @@ import StudentForm from './components/student/studentForm';
 import { Route, Routes } from 'react-router-dom';
 import { Login } from './pages/login/login';
 import { ToastContainer } from 'react-toastify';
+import { Register } from './components/Auth/register/Register';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/EditStudent/:id" element={<StudentForm />} ></Route>
       
       <Route path="/login" element={<Login />} ></Route>
+      <Route path='/signup' element={<Register />}/>
       </Routes>
     </div>
   );

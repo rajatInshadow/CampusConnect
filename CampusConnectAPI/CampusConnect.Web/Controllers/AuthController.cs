@@ -1,5 +1,6 @@
 ﻿using CampusConnect.Application.Interfaces;
 using CampusConnect.Model.Dtos.Auth;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CampusConnect.Web.Controllers
@@ -17,6 +18,7 @@ namespace CampusConnect.Web.Controllers
 
         [HttpGet]
         [Route("GetAllUser")]
+        [Authorize]
         public async Task<IEnumerable<UserDto>> GetAllUser()
         {
 
