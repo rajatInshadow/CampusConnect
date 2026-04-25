@@ -85,6 +85,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IStudentRepository, StudentService>();
 builder.Services.AddScoped<IPasswordService, PasswordService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IDepartmentRepository, DepartmentService>();
 
 var app = builder.Build();
 app.UseCors("AllowReact");
