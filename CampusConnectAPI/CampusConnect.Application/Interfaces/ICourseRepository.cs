@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CampusConnect.Model.Dtos;
+using CampusConnect.Utils.Common.ApiResponse;
 
 namespace CampusConnect.Application.Interfaces
 {
-    internal interface ICourseRepository
+    public interface ICourseRepository
     {
+        Task<List<CourseDto>> GetAllCourses();
+        Task<CourseDto> GetCourseById(int Id);
+        Task<CourseDto> CreateCourse(CourseDto course);
+        Task<CourseDto> UpdateCourse(CourseDto course);
+        Task<ApiResponse<CourseDto>> DeleteCourse(int Id);
+
+
+
     }
 }

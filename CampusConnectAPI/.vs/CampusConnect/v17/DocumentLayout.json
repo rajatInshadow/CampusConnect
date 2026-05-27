@@ -3,52 +3,156 @@
   "WorkspaceRootPath": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\attendancerecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\attendancerecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}|Utils\\CampusConnect.Utils.csproj|f:\\projects\\campusconnect\\campusconnectapi\\utils\\common\\apiresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}|Utils\\CampusConnect.Utils.csproj|solutionrelative:utils\\common\\apiresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\attendancerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\attendancerecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\attendancesessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\services\\attendancesessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\attendancerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\services\\attendancerecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\dbconnectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\dbconnectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\attendancesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\attendancesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\attendancesessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\attendancesessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\interfaces\\iattendancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\iattendancerecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\interfaces\\iattendancesessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\iattendancesessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\attendancesessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\attendancesessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\admissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\admissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\interfaces\\ienrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\ienrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\facultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\facultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\facultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\services\\facultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\interfaces\\ifacultyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\ifacultyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\facultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\facultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}|Utils\\CampusConnect.Utils.csproj|f:\\projects\\campusconnect\\campusconnectapi\\utils\\common\\apiresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}|Utils\\CampusConnect.Utils.csproj|solutionrelative:utils\\common\\apiresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,28 +179,12 @@
       "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}|Utils\\CampusConnect.Utils.csproj|f:\\projects\\campusconnect\\campusconnectapi\\utils\\common\\apiresponse\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}|Utils\\CampusConnect.Utils.csproj|solutionrelative:utils\\common\\apiresponse\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\campusconnect.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\campusconnect.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DEF59591-39C7-4A36-B4C5-4414F2D66246}|CampusConnect.Web\\CampusConnect.Web.csproj|solutionrelative:campusconnect.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.data\\campusconnect.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B65C7E80-1D34-45A7-992E-6C446C5405A5}|CampusConnect.Data\\CampusConnect.Data.csproj|solutionrelative:campusconnect.data\\campusconnect.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,40 +195,12 @@
       "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\auth\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}|Utils\\CampusConnect.Utils.csproj|f:\\projects\\campusconnect\\campusconnectapi\\utils\\campusconnect.utils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8BF8E1F5-8615-41C8-9DAA-2CF81C991DA6}|Utils\\CampusConnect.Utils.csproj|solutionrelative:utils\\campusconnect.utils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.application\\campusconnect.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{66A9B00B-7C78-4A92-82F8-7916CDCB586F}|CampusConnect.Application\\CampusConnect.Application.csproj|solutionrelative:campusconnect.application\\campusconnect.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\campusconnect.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\campusconnect.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|f:\\projects\\campusconnect\\campusconnectapi\\campusconnect.model\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B46A9-1E77-4DF1-8134-2161D48F2C1A}|CampusConnect.Model\\CampusConnect.Model.csproj|solutionrelative:campusconnect.model\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,24 +210,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "DbConnectContext.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\DbConnectContext.cs",
               "RelativeDocumentMoniker": "CampusConnect.Data\\DbConnectContext.cs",
               "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\DbConnectContext.cs",
               "RelativeToolTip": "CampusConnect.Data\\DbConnectContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwAwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA/wBIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-25T07:03:49.605Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 42,
               "Title": "IPasswordService.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Security\\IPasswordService.cs",
               "RelativeDocumentMoniker": "CampusConnect.Application\\Security\\IPasswordService.cs",
@@ -184,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 41,
               "Title": "PasswordService.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Security\\PasswordService.cs",
               "RelativeDocumentMoniker": "CampusConnect.Application\\Security\\PasswordService.cs",
@@ -197,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 37,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\Utils\\Common\\ApiResponse\\ApiResponse.cs",
               "RelativeDocumentMoniker": "Utils\\Common\\ApiResponse\\ApiResponse.cs",
@@ -206,12 +262,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T08:28:16.452Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 43,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "CampusConnect.Application\\Interfaces\\IAuthService.cs",
@@ -224,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 40,
               "Title": "AuthService.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "CampusConnect.Data\\Services\\AuthService.cs",
@@ -238,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 47,
               "Title": "UserDto.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\Auth\\UserDto.cs",
               "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\Auth\\UserDto.cs",
@@ -251,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 45,
               "Title": "User.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\User.cs",
               "RelativeDocumentMoniker": "CampusConnect.Model\\User.cs",
@@ -264,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 46,
               "Title": "UserRoles.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Enums\\UserRoles.cs",
               "RelativeDocumentMoniker": "CampusConnect.Model\\Enums\\UserRoles.cs",
@@ -277,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 25,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "CampusConnect.Web\\Controllers\\DepartmentController.cs",
@@ -286,25 +341,364 @@
               "ViewState": "AgIAACUAAAAAAAAAAAAowB0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T23:19:49.067Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\Auth\\RegisterDto.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Dtos\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T06:22:40.34Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttendanceSessionController.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\AttendanceSessionController.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Web\\Controllers\\AttendanceSessionController.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\AttendanceSessionController.cs",
+              "RelativeToolTip": "CampusConnect.Web\\Controllers\\AttendanceSessionController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:24:09.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttendanceRecordController.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\AttendanceRecordController.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Web\\Controllers\\AttendanceRecordController.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\AttendanceRecordController.cs",
+              "RelativeToolTip": "CampusConnect.Web\\Controllers\\AttendanceRecordController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAewFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:22:58.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AttendanceRecordService.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\AttendanceRecordService.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Data\\Services\\AttendanceRecordService.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\AttendanceRecordService.cs",
+              "RelativeToolTip": "CampusConnect.Data\\Services\\AttendanceRecordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:22:21.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAttendanceRecordRepository.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IAttendanceRecordRepository.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Application\\Interfaces\\IAttendanceRecordRepository.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IAttendanceRecordRepository.cs",
+              "RelativeToolTip": "CampusConnect.Application\\Interfaces\\IAttendanceRecordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:21:57.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendanceSessionService.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\AttendanceSessionService.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Data\\Services\\AttendanceSessionService.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\AttendanceSessionService.cs",
+              "RelativeToolTip": "CampusConnect.Data\\Services\\AttendanceSessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:20:49.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAttendanceSessionRepository.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IAttendanceSessionRepository.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Application\\Interfaces\\IAttendanceSessionRepository.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IAttendanceSessionRepository.cs",
+              "RelativeToolTip": "CampusConnect.Application\\Interfaces\\IAttendanceSessionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:19:45.437Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AttendanceRecordDto.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\AttendanceRecordDto.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\AttendanceRecordDto.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\AttendanceRecordDto.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Dtos\\AttendanceRecordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:16:49.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AttendanceSessionDto.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\AttendanceSessionDto.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\AttendanceSessionDto.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\AttendanceSessionDto.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Dtos\\AttendanceSessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:15:55.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttendanceRecord.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\AttendanceRecord.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\AttendanceRecord.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\AttendanceRecord.cs*",
+              "RelativeToolTip": "CampusConnect.Model\\AttendanceRecord.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:15:08.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AttendanceSession.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\AttendanceSession.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\AttendanceSession.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\AttendanceSession.cs",
+              "RelativeToolTip": "CampusConnect.Model\\AttendanceSession.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:12:10.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Web\\Controllers\\EnrollmentController.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "CampusConnect.Web\\Controllers\\EnrollmentController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:19:03.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EnrollmentService.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\EnrollmentService.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Data\\Services\\EnrollmentService.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\EnrollmentService.cs",
+              "RelativeToolTip": "CampusConnect.Data\\Services\\EnrollmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:17:56.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IEnrollmentRepository.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IEnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Application\\Interfaces\\IEnrollmentRepository.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IEnrollmentRepository.cs",
+              "RelativeToolTip": "CampusConnect.Application\\Interfaces\\IEnrollmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:16:57.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EnrollmentDto.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\EnrollmentDto.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\EnrollmentDto.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\EnrollmentDto.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Dtos\\EnrollmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:16:01.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Enrollment.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Enrollment.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Enrollment.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:14:57.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FacultyController.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\FacultyController.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Web\\Controllers\\FacultyController.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\FacultyController.cs",
+              "RelativeToolTip": "CampusConnect.Web\\Controllers\\FacultyController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:03:43.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FacultyService.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\FacultyService.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Data\\Services\\FacultyService.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\FacultyService.cs",
+              "RelativeToolTip": "CampusConnect.Data\\Services\\FacultyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:01:27.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IFacultyRepository.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IFacultyRepository.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Application\\Interfaces\\IFacultyRepository.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IFacultyRepository.cs",
+              "RelativeToolTip": "CampusConnect.Application\\Interfaces\\IFacultyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T11:00:37.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FacultyDto.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\FacultyDto.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\FacultyDto.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\FacultyDto.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Dtos\\FacultyDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:59:30.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdmissionDto.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\AdmissionDto.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\AdmissionDto.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\AdmissionDto.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Dtos\\AdmissionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:58:29.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Admission.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Admission.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Admission.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Admission.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Admission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:58:24.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Faculty.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Faculty.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Faculty.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Faculty.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:54:20.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Application\\Interfaces\\IStudentRepository.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IStudentRepository.cs",
+              "RelativeToolTip": "CampusConnect.Application\\Interfaces\\IStudentRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA/wA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:37:35.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdmissionController.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\AdmissionController.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Web\\Controllers\\AdmissionController.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\AdmissionController.cs",
+              "RelativeToolTip": "CampusConnect.Web\\Controllers\\AdmissionController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAvwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T04:49:45.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\CourseDto.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\CourseDto.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\CourseDto.cs",
+              "RelativeToolTip": "CampusConnect.Model\\Dtos\\CourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T18:57:02.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Web\\Controllers\\CourseController.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "CampusConnect.Web\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T18:37:41.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "CampusConnect.Data\\Services\\CourseService.cs",
+              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\CourseService.cs",
+              "RelativeToolTip": "CampusConnect.Data\\Services\\CourseService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T18:37:40.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "DepartmentService.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\DepartmentService.cs",
               "RelativeDocumentMoniker": "CampusConnect.Data\\Services\\DepartmentService.cs",
               "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\DepartmentService.cs",
               "RelativeToolTip": "CampusConnect.Data\\Services\\DepartmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T17:04:35.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T17:04:35.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 35,
               "Title": "IDepartmentRepository.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IDepartmentRepository.cs",
               "RelativeDocumentMoniker": "CampusConnect.Application\\Interfaces\\IDepartmentRepository.cs",
@@ -312,12 +706,11 @@
               "RelativeToolTip": "CampusConnect.Application\\Interfaces\\IDepartmentRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T17:03:39.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T17:03:39.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "Department.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Department.cs",
               "RelativeDocumentMoniker": "CampusConnect.Model\\Department.cs",
@@ -329,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 34,
               "Title": "DepartmentDto.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\DepartmentDto.cs",
               "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\DepartmentDto.cs",
@@ -341,31 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\Utils\\Common\\ApiResponse\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "Utils\\Common\\ApiResponse\\LoginResponse.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\Utils\\Common\\ApiResponse\\LoginResponse.cs",
-              "RelativeToolTip": "Utils\\Common\\ApiResponse\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T16:13:17.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CampusConnect.Utils.csproj",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\Utils\\CampusConnect.Utils.csproj",
-              "RelativeDocumentMoniker": "Utils\\CampusConnect.Utils.csproj",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\Utils\\CampusConnect.Utils.csproj",
-              "RelativeToolTip": "Utils\\CampusConnect.Utils.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-11T08:27:05.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 36,
               "Title": "AuthController.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "CampusConnect.Web\\Controllers\\AuthController.cs",
@@ -378,69 +747,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\Auth\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\Auth\\AuthResponseDto.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\Auth\\AuthResponseDto.cs",
-              "RelativeToolTip": "CampusConnect.Model\\Dtos\\Auth\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T06:24:00.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\Auth\\LoginDto.cs",
-              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\Auth\\LoginDto.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\Auth\\LoginDto.cs",
-              "RelativeToolTip": "CampusConnect.Model\\Dtos\\Auth\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T06:23:09.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\Auth\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\Auth\\RegisterDto.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\Auth\\RegisterDto.cs",
-              "RelativeToolTip": "CampusConnect.Model\\Dtos\\Auth\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T06:22:40.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 26,
               "Title": "StudentController.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "CampusConnect.Web\\Controllers\\StudentController.cs",
               "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Controllers\\StudentController.cs",
               "RelativeToolTip": "CampusConnect.Web\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBUAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T06:00:29.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T06:00:29.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Program.cs",
               "RelativeDocumentMoniker": "CampusConnect.Web\\Program.cs",
               "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\Program.cs",
               "RelativeToolTip": "CampusConnect.Web\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwF0AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T06:57:24.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 38,
               "Title": "Student.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Student.cs",
               "RelativeDocumentMoniker": "CampusConnect.Model\\Student.cs",
@@ -452,19 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IStudentRepository.cs",
-              "RelativeDocumentMoniker": "CampusConnect.Application\\Interfaces\\IStudentRepository.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\IStudentRepository.cs",
-              "RelativeToolTip": "CampusConnect.Application\\Interfaces\\IStudentRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvw0AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T16:36:11.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 39,
               "Title": "StudentDto.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Dtos\\StudentDto.cs",
               "RelativeDocumentMoniker": "CampusConnect.Model\\Dtos\\StudentDto.cs",
@@ -476,20 +796,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 29,
               "Title": "StudentService.cs",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "CampusConnect.Data\\Services\\StudentService.cs",
               "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\Services\\StudentService.cs",
               "RelativeToolTip": "CampusConnect.Data\\Services\\StudentService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwD4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-25T07:19:51.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-25T07:19:51.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 49,
               "Title": "CampusConnect.Application.csproj",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\CampusConnect.Application.csproj",
               "RelativeDocumentMoniker": "CampusConnect.Application\\CampusConnect.Application.csproj",
@@ -501,43 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CampusConnect.Data.csproj",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\CampusConnect.Data.csproj",
-              "RelativeDocumentMoniker": "CampusConnect.Data\\CampusConnect.Data.csproj",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Data\\CampusConnect.Data.csproj",
-              "RelativeToolTip": "CampusConnect.Data\\CampusConnect.Data.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-27T16:38:03.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CampusConnect.Model.csproj",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\CampusConnect.Model.csproj",
-              "RelativeDocumentMoniker": "CampusConnect.Model\\CampusConnect.Model.csproj",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\CampusConnect.Model.csproj",
-              "RelativeToolTip": "CampusConnect.Model\\CampusConnect.Model.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-10T11:03:57.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CampusConnect.Web.csproj",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\CampusConnect.Web.csproj",
-              "RelativeDocumentMoniker": "CampusConnect.Web\\CampusConnect.Web.csproj",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\CampusConnect.Web.csproj",
-              "RelativeToolTip": "CampusConnect.Web\\CampusConnect.Web.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-25T06:45:57.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 44,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Web\\appsettings.json",
               "RelativeDocumentMoniker": "CampusConnect.Web\\appsettings.json",
@@ -546,66 +829,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-25T06:49:22.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Attendance.cs",
-              "RelativeDocumentMoniker": "CampusConnect.Model\\Attendance.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Attendance.cs",
-              "RelativeToolTip": "CampusConnect.Model\\Attendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T16:28:27.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Enrollment.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Enrollment.cs",
-              "RelativeDocumentMoniker": "CampusConnect.Model\\Enrollment.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Enrollment.cs",
-              "RelativeToolTip": "CampusConnect.Model\\Enrollment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T16:28:05.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Course.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Course.cs",
-              "RelativeDocumentMoniker": "CampusConnect.Model\\Course.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Course.cs",
-              "RelativeToolTip": "CampusConnect.Model\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T16:27:43.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ICourseRepository.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\ICourseRepository.cs",
-              "RelativeDocumentMoniker": "CampusConnect.Application\\Interfaces\\ICourseRepository.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Application\\Interfaces\\ICourseRepository.cs",
-              "RelativeToolTip": "CampusConnect.Application\\Interfaces\\ICourseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T16:35:57.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Faculty.cs",
-              "DocumentMoniker": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Faculty.cs",
-              "RelativeDocumentMoniker": "CampusConnect.Model\\Faculty.cs",
-              "ToolTip": "F:\\Projects\\CampusConnect\\CampusConnectAPI\\CampusConnect.Model\\Faculty.cs",
-              "RelativeToolTip": "CampusConnect.Model\\Faculty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T16:27:16.561Z"
             }
           ]
         }

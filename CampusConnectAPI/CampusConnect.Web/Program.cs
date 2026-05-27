@@ -86,6 +86,12 @@ builder.Services.AddScoped<IStudentRepository, StudentService>();
 builder.Services.AddScoped<IPasswordService, PasswordService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IDepartmentRepository, DepartmentService>();
+builder.Services.AddScoped<ICourseRepository, CourseService>();
+builder.Services.AddScoped<IAdmissionRepository, AdmissionService>();
+builder.Services.AddScoped<IFacultyRepository, FacultyService>();
+builder.Services.AddScoped<IEnrollmentRepository, EnrollmentService>();
+builder.Services.AddScoped<IAttendanceRecordRepository, AttendanceRecordService>();
+builder.Services.AddScoped<IAttendanceSessionRepository, AttendanceSessionService>();
 
 var app = builder.Build();
 app.UseCors("AllowReact");

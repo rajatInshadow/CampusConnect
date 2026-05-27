@@ -29,7 +29,6 @@ namespace CampusConnect.Web.Controllers
         }
 
         [HttpGet("{Id}")]
-        
         public async Task<ActionResult<StudentDto>> GetStudentById(int Id)
         {
             StudentDto student = await _studentRepository.GetStudentById(Id);

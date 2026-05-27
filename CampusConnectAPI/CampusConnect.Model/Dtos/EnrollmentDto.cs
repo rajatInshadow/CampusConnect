@@ -1,6 +1,6 @@
-﻿namespace CampusConnect.Model
+﻿namespace CampusConnect.Model.Dtos
 {
-    public class Enrollment
+    public class EnrollmentDto
     {
         public int EnrollmentId { get; set; }
 
@@ -9,10 +9,5 @@
         public int CourseId { get; set; }
 
         public DateTime EnrollmentDate { get; set; }
-
-        // Navigation Properties
-        public Student Student { get; set; }
-
-        public Course Course { get; set; }
     }
 }

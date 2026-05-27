@@ -1,6 +1,6 @@
-﻿namespace CampusConnect.Model
+﻿namespace CampusConnect.Model.Dtos
 {
-    public class Faculty
+    public class FacultyDto
     {
         public int FacultyId { get; set; }
 
@@ -13,8 +13,5 @@
         public int DepartmentId { get; set; }
 
         public string FacultyCode { get; set; }
-
-        // Navigation Property
-        public Department Department { get; set; }
     }
 }
